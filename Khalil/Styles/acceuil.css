@@ -1,0 +1,465 @@
+* {
+    text-align: center;
+}
+
+.fondgen {
+    background-image: url('/Khalil/Images/IMG_5320.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 18%;
+}
+
+.mesfon {
+    background-color: rosybrown;
+}
+
+.art {
+    background-color: rgb(153, 133, 109);
+}
+
+.f1 {
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgb(153, 133, 109);
+    padding: 5px 10px;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    border-color: blue;
+}
+
+
+.p2 {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(168, 143, 113);
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.p3 {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#tableau {
+    Border: 3px solid black;
+    padding: 8;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 70%;
+    height: 670px;
+    margin-left: 20px;
+}
+
+
+td {
+    border: 3px solid black;
+}
+
+
+
+th {
+    border: 3px solid black;
+}
+
+.contact {
+    color: black;
+}
+
+.Bienvenue {
+    color: black;
+    font-size: large;
+    border: 0;
+    font-weight: bolder;
+}
+
+.listeD {
+    color: black;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 3px solid #98822f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8.6%;
+}
+
+.listeDes{
+    color: black;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 3px solid #98822f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.f1 {
+    background-color: antiquewhite;
+    border-color: black;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+#enonce {
+    font-weight: bold;
+}
+
+#iden {
+    float: right;
+    margin-top: -20%;
+    width: 11%;
+    height: 250px;
+    filter: grayscale(18%);
+}
+
+#commande {
+    border: 3px solid black;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 40%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#panier {
+    Border: 3px solid black;
+    padding: 8;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#panier,
+#panier th,
+#panier td {
+    border: 1px solid #ccc;
+}
+
+#panier th,
+#panier td {
+    padding: 6px;
+    text-align: left;
+}
+
+#panier th {
+    background-color: #f2f2f2;
+}
+
+
+#registrationForm {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #0c0a01;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#registrationForm form.val {
+    background-color: #98822f;
+    width: 80px;
+    /* Augmentez la largeur selon vos besoins */
+    margin: auto auto;
+    /* Centrer le formulaire */
+    padding: 0;
+    border: 2px solid black;
+    position: relative;
+}
+
+
+#registrationForm input[type=text],
+#registrationForm input[type=password],
+#registrationForm textarea {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #8c6c1d;
+    /* Augmentation de l'épaisseur de la bordure */
+    box-sizing: border-box;
+}
+
+
+#submitButton {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #98822f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#submitButton:hover {
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: white;
+    color: #98822f;
+    border: 1px solid #98822f;
+}
+
+#boutcomm {
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+    padding: 9px 9px;
+    border: none;
+    cursor: pointer;
+}
+
+#boutcomm:hover {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+#Livraison {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 38%;
+    margin: 20px auto;
+    /* Marge supérieure et inférieure sur auto, centrant le contenu horizontalement */
+    background-color: rgba(255, 255, 255, 0.75);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Livraison p {
+    font-weight: bold;
+}
+
+
+#histo {
+    Border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginForm {
+    Border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginForm form.val {
+    background-color: #98822f;
+    width: 80px;
+    margin: auto auto;
+    padding: 0;
+    border: 2px solid black;
+    position: relative;
+}
+
+
+#loginForm input[type=text],
+#loginForm input[type=password],
+#loginForm textarea {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #8c6c1d;
+    box-sizing: border-box;
+}
+
+
+#seconn {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #98822f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+#seconn:hover {
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: white;
+    color: #98822f;
+    border: 1px solid #98822f;
+}
+
+
+#formajoutpan {
+    background-color: white;
+    border: 2px solid #98822f;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#formajoutpan input[type='number'] {
+
+    width: 40px;
+    padding: 8px;
+    border: 1px solid black;
+    margin-left: 14px;
+
+}
+
+#formajoutpan input[type='submit'] {
+
+    background-color: #98822f;
+    color: white;
+    border: 1px solid black;
+    padding: 9px 9px;
+    border: none;
+    cursor: pointer;
+    margin-left: 22px;
+}
+
+#formajoutpan input[type='submit']:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: green;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu {
+    position: absolute;
+    top: -20px;
+    right: -5px;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.mess1 {
+    background-color: burlywood;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px;
+}
+
+.mess2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#lienretmess {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    padding: 10px;
+}
+
+
+.joueur{
+    float: right;
+    margin-top: 68px;
+    width: 11%;
+    height: 220px;
+    filter: grayscale(80%);
+}
+
+#silva{
+    float:left;
+    margin-top: -29%;
+    width: 11%;
+    height: 200px;
+    filter: grayscale(80%);
+}
+
+#rvp{
+    float:left;
+    margin-top: -14.4%;
+    width: 11%;
+    height: 200px;
+    filter: grayscale(80%);
+}
+
+#vvd{
+    float:left;
+    margin-top: 0.8%;
+    width: 11%;
+    height: 277px;
+    filter: grayscale(80%);
+}
+
+
+.sidebar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 277px;
+    width: 300px; /* Largeur de la barre latérale */
+    background-color: #f1f1f1; /* Couleur de fond de la barre latérale */
+    padding: 20px; /* Espacement interne de la barre latérale */
+    border-radius: 5px; /* Bord arrondi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Ombre pour l'effet de profondeur */
+    overflow-y: auto;
+}
